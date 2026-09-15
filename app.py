@@ -10,3 +10,11 @@ time.sleep(0.05)
 if st.button('Roll Number!'):
     number = random.randint(1, 100)
     st.header(f" Your number is {number}!")
+    
+    if number == (3):
+        st.header('Max Verstappen!')
+    if number == (44):
+        st.header('Lewis Hamilton!')
+    if number == (22):
+        st.header("Dev's Birthdate!")
+
